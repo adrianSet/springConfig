@@ -1,7 +1,10 @@
 spring:
     profiles: dev
 name: zhaowenlong
-server: { www.baidu.com: 127.0.0.1 , www.126.com: 127.0.0.2 }
+server: 
+     -
+        www.baidu.com: 127.0.0.1
+        www.126.com: 127.0.0.2 
     
 ---
 name: zhao

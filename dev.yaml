@@ -2,7 +2,12 @@ spring:
     profiles: dev
 name: zhaowenlong
 dns: 
-    name: www.baiud.com
+  -
+    name: www.baidu.com
+    ip: 127.0.0.1
+    
+  -
+    name: www.126.com
     ip: 127.0.0.1
 ---
 name: zhao

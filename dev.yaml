@@ -7,5 +7,5 @@ server:
 spring:
     profiles: pro
 server:
-    -- www.baidu.com: 192.168.1.1
-    -- www.126.com: 192.168.1.2
+    - www.baidu.com: 192.168.1.1
+    - www.126.com: 192.168.1.2

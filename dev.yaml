@@ -11,6 +11,9 @@ dns:
 name: zhao
 spring:
     profiles: pro
-server:
-    - www.baidu.com: 192.168.1.1
-    - www.126.com: 192.168.1.2
+dns: 
+ list:
+   www.baidu.com: 192.168.1.1
+   www.126.com: 192.168.1.2
+   www.163.com: 192.168.1.3
+   www.taobao.com: 127.0.0.4

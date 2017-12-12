@@ -4,7 +4,9 @@ name: zhaowenlong
 dns: 
  list:
    www.baidu.com: 127.0.0.1
-   www.126.com: 127.0.0.1
+   www.126.com: 127.0.0.2
+   www.163.com: 127.0.0.3
+   www.taobao.com: 127.0.0.4
 ---
 name: zhao
 spring:
